@@ -1,0 +1,32 @@
+
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+
+# Ambiente Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Perfil e arquivos temporários do navegador
+chrome_profile/
+
+# Dados operacionais e arquivos extraídos
+dados/
+*.csv
+*.xlsx
+*.xls
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# Configurações locais de IDE
+.vscode/
+.idea/
